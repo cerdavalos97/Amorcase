@@ -1,0 +1,29 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/fundas"
+public_folder: "/images/fundas"
+
+collections:
+  - name: "fundas"
+    label: "Fundas"
+    folder: "content/fundas"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Nombre de la Funda"
+        name: "title"
+        widget: "string"
+      - label: "Modelo de iPhone"
+        name: "modelo"
+        widget: "string"
+      - label: "Imagen de la Funda"
+        name: "image"
+        widget: "image"
+      - label: "Descripcion Corta"
+        name: "description"
+        widget: "text"
+      - label: "Enlace de Mercado Libre"
+        name: "link_ml"
+        widget: "string"
