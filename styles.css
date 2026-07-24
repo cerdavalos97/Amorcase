@@ -295,6 +295,6 @@ a {
 }
 /* Arreglo para que las imágenes no se estiren */
 .card img, .funda-card img, img {
-  object-fit: cover !important;
+  object-fit: contain !important;
   object-position: center !important;
 }
