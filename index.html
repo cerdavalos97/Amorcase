@@ -117,7 +117,7 @@
                         card.className = 'product-card';
                         card.innerHTML = `
                             <a href="${link}" target="_blank" style="text-decoration: none; color: inherit;">
-                                <img src="${image}" alt="${title}" class="product-img">
+                                <img src="${image}" alt="${title}" class="product-img" style="height: 380px; width: 100%; object-fit: contain; object-position: center; padding: 10px; background-color: #fafafa;">
                                 <div class="product-info">
                                     <h3>${title}</h3>
                                     ${modelo ? `<p><strong>iPhone:</strong> ${modelo}</p>` : ''}
