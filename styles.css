@@ -293,3 +293,8 @@ a {
         font-size: 1rem;
     }
 }
+/* Arreglo para que las imágenes no se estiren */
+.card img, .funda-card img, img {
+  object-fit: cover !important;
+  object-position: center !important;
+}
