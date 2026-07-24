@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: cerdavalos97/Amorcase
   branch: main
 
 media_folder: "images/fundas"
